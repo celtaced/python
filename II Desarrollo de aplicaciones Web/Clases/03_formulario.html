@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Formulario</title>
+</head>
+<body>
+    <div>
+        <h1>Formulario de Ejemplo</h1>
+        <form action="procesar.html" method="get">
+            <fieldset>
+                <legend>Este es el formulario</legend>
+                
+                <label for="usuario">Usuario: </label>
+                <input type="text" name="usuario" id="usuario" placeholder="Ingrese el usuario"><br>
+                
+                <label for="correo">Correo: </label>
+                <input type="email" name="correo" id="correo" placeholder="Ingrese el correo"><br>
+
+                <label for="clave">Clave: </label>
+                <input type="password" name="clave" id="clave" placeholder="Ingrese la clave"><br>
+
+                <label for="confirmar">Confirmar Clave: </label>
+                <input type="password" name="confirmar" id="confirmar" placeholder="Ingrese el usuario"><br>
+
+                <label for="foto">Subir fotografia: </label>
+                <input type="file" name="foto" id="foto"><br>
+
+                <label for="genero">Genero: </label>
+                <input type="radio" name="genero" value="M" checked>Masculino
+                <input type="radio" name="genero" value="F">Femenino
+                <br>
+
+                <label for="pais">País: </label>
+                <select name="pais" id="pais">
+                    <option value="US">Estados Unidos</option>
+                    <option value="SV">El Salvador</option>
+                    <option value="ES">España</option>
+                </select>
+                <br>
+
+                <label for="pasatiempo">Pasatiempo: </label>
+                <input type="checkbox" name="pasatiempo" id="pasatiempo" value="1">Football
+                <input type="checkbox" name="pasatiempo" id="pasatiempo" value="2">Basketball
+                <br>
+
+                <label for="direccion">Dirección: </label>
+                <textarea name="direccion" id="direccion" cols="30" rows="10"></textarea>
+                <br>
+
+                
+
+                <input type="submit" value="Enviar">
+            
+            </fieldset> 
+        </form>
+    </div>
+    
+</body>
+</html>

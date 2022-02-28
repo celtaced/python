@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi formulario</title>
+</head>
+<body>
+    <h1>Un formulario de ejemplo</h1>
+    <form action="procesar.html" method="GET" enctype="multipart/form-data">
+        <fieldset style="border: 2px solid red;">
+            <legend>Este es mi formulario</legend>
+        
+        <label for="usuario">Usuario:</label>
+        <input type="text" name="usuario" id="usuario" placeholder="Digite un nombre"> <br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo" id="correo" placeholder="Digite un correo"> <br>
+
+        <label for="clave">Clave:</label>
+        <input type="password" name="clave" id="clave" placeholder="Digite una clave"> <br>
+
+        <label for="confirmar">Confirmar clave:</label>
+        <input type="password" name="confirmar" id="confirmar" placeholder="Confirme la clave"> <br>
+        
+        <label for="foto">Subir fotografia:</label>
+        <input type="file" name="foto" id="foto"> <br>
+
+        <label for="genero">Genero: </label>
+        <input type="radio" name="genero" id="genero" value="M" checked>Masculino
+        <input type="radio" name="genero" id="genero" value="F">Femenino <br>
+
+        <label for="pais">Pais: </label>
+        <select name="pais" id="pais">
+            <option value="US">Estados Unidos</option>
+            <option value="SV" selected>El Salvador</option>
+            <option value="ES">Espa;a</option>
+        </select><br>
+
+        <label for="pasatiempo">Pasatiempo: </label>
+        <input type="checkbox" name="pasatiempo" id="pasatiempo" value="1">Futbol
+        <input type="checkbox" name="pasatiempo" id="pasatiempo" value="3">VOLEYBALL
+        <input type="checkbox" name="pasatiempo" id="pasatiempo" value="2">Basketball <br>
+
+        <label for="direccion">Direccion: </label>
+        <textarea name="direccion" id="direccion" cols="30" rows="5">este es el contenido
+        </textarea><br>
+
+        <label for="fecha">Fecha de registro:</label>
+        <input type="datetime-local" name="fecha" id="fecha" value="2022-02-21 20:57"> <br>
+
+        <input type="submit" name="enviar" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>

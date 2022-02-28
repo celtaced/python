@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="static/css/style.css">
+    <style>
+        .login{max-width: 30%;}
+        img {margin: 20px auto;display: block;}
+        .titulo {/*color: green !important;*/font-weight: bold;}
+    </style>
+</head>
+<body>
+    <div class="header responsive">
+        <a href="https://google.com">Inicio</a>
+        <a href="https://google.com">Contacto</a>
+        <a href="https://google.com">Acerca de</a>
+    </div>
+    <div class="content">
+        <div class="login responsive" style="border: 1px solid gray">
+            <img src="static/img/user.png" alt="login image"  class="user responsive">
+            <h1 class="titulo" style="color: #ecb807">Login</h1>
+            <form action="" method="post">
+                <label for="usuario" class="etiqueta">Usuario: </label>
+                <input type="text" name="usuario" id="usuario" class="textbox">
+                <label for="password" class="etiqueta">Contrase&ntilde;a: </label>
+                <input type="password" name="password" id="password" class="textbox">
+                <input type="submit" value="Iniciar Sesion" class="primario">
+                <a href="" class="forgotpassword">Olvidaste tu contrase&ntilde;a?</a>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-text"><p>&copy; Copyright 2022</p></div>
+    </div>
+</body>
+</html>

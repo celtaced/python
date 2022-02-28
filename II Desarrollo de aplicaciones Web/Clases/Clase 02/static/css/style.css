@@ -1,0 +1,74 @@
+body {
+    font-family: 'Lato',Verdana, sans-serif;
+}
+
+.login{
+    border-radius: 25px;
+    padding: 40px;
+    margin: 100px auto;
+    min-width: 400px;
+    padding-right: 50px;
+}
+
+.titulo {
+    font-style: italic;text-align: center;
+}
+
+.etiqueta, .textbox, .primario {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.textbox {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.primario {
+    background-color: #1d8097;
+    color: #fff;
+    padding: 10px;
+    border: none;
+}
+
+.forgotpassword{
+    float: right;
+    text-decoration: none;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #1d8097;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    display: inline-block;
+}
+.header a:hover{background-color: #155d74;}
+.primario:hover{background-color: #155d74; cursor: pointer;}
+.footer{
+    color: #fff;
+    font-size: 18px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #1d8097;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .header.responsive a {display: block;}
+    .login.responsive {margin-top: 250px;}
+}
+@media screen and (max-width: 480px){
+    .user.responsive {display: none;}
+    .login {min-width: 250px;}
+}
