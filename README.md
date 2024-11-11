@@ -7,5 +7,5 @@ Ejercicios de desarrollo de aplicaciones web
 ## 02 - Actividades Certificación
 Actividades de Certificación UNIR Mexico
 
-# 03 - CV2
+## 03 - CV2
 Trabajo con imágenes
