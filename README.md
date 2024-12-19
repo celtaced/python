@@ -8,4 +8,4 @@ Ejercicios de desarrollo de aplicaciones web
 Actividades de Certificación UNIR Mexico
 
 ## 03 - CV2
-Trabajo con imágenes
+Trabajo con imágenes haciendo uso de la biblioteca OpenCV
